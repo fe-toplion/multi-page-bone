@@ -1,3 +1,16 @@
 <template>
-    <h1>zhaoshaobang</h1>
+    <parent></parent>
 </template>
+
+<script>
+import Parent from './widgets/Parent.vue';
+export default {
+    components: {
+        Parent
+    }
+}
+</script>
+
+<style>
+
+</style>
